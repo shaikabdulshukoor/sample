@@ -1,0 +1,146 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "feature_release",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "solutions",
+      "features": []
+    },
+    {
+      "name": "video",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "sprint",
+      "subLists": [
+        {
+          "canonicalForm": "q4",
+          "list": [
+            "quarter4",
+            "quarter 4",
+            "quarter four",
+            "fourth quarter",
+            "Q4"
+          ]
+        },
+        {
+          "canonicalForm": "q3",
+          "list": [
+            "quarter3",
+            "quarter 3",
+            "quarter three",
+            "third quarter",
+            "Q3"
+          ]
+        },
+        {
+          "canonicalForm": "q2",
+          "list": [
+            "quarter2",
+            "quarter 2",
+            "quarter two",
+            "second quarter",
+            "Q2"
+          ]
+        },
+        {
+          "canonicalForm": "q1",
+          "list": [
+            "quarter1",
+            "quarter 1",
+            "quarter one",
+            "first quarter",
+            "Q1"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "feature list for first quarter",
+      "intent": "feature_release",
+      "entities": []
+    },
+    {
+      "text": "how can i watch placeholder",
+      "intent": "video",
+      "entities": []
+    },
+    {
+      "text": "new feature release for q2",
+      "intent": "feature_release",
+      "entities": []
+    },
+    {
+      "text": "play me the placeholder video",
+      "intent": "video",
+      "entities": []
+    },
+    {
+      "text": "play placeholder video",
+      "intent": "video",
+      "entities": []
+    },
+    {
+      "text": "share me your solution list",
+      "intent": "solutions",
+      "entities": []
+    },
+    {
+      "text": "show me the placeholder video",
+      "intent": "video",
+      "entities": []
+    },
+    {
+      "text": "tell me about the core solutions that you offer",
+      "intent": "solutions",
+      "entities": []
+    },
+    {
+      "text": "tell me about the upcoming features for mobile app",
+      "intent": "feature_release",
+      "entities": []
+    },
+    {
+      "text": "want to watch placeholder video",
+      "intent": "video",
+      "entities": []
+    },
+    {
+      "text": "what are the solution that you provide",
+      "intent": "solutions",
+      "entities": []
+    },
+    {
+      "text": "what are the upcoming features for web client",
+      "intent": "feature_release",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "wedbush_luis",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
